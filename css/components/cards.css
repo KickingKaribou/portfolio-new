@@ -1,0 +1,24 @@
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-column-gap: 48px;
+  }
+
+.card{
+    width: 1fr;
+}
+
+.card p{
+    color:#333;
+}
+
+.card img{
+    width: 48px;
+    height: 48px;
+}
+
+.card h3{
+    padding-bottom: 8px;
+    border-bottom: 2px solid #666;
+}
